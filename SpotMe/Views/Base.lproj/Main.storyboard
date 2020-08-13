@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LgS-Ec-o3O">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="sHM-oz-5nt">
+            <objects>
+                <viewController id="EoU-qZ-EN3" customClass="HomeViewController" customModule="SpotMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iyg-iJ-HsH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6U8-c8-B7I" userLabel="homeTableView">
+                                <rect key="frame" x="0.0" y="308" width="414" height="588"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMV-hq-Z69">
+                                <rect key="frame" x="65" y="168" width="284" height="59"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Find a lift partner">
+                                    <color key="titleColor" name="spotMeGold"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="oPN-28-7uU">
+                                <rect key="frame" x="20" y="267" width="374" height="36"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groups" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSn-Kc-YfA">
+                                        <rect key="frame" x="0.0" y="0.0" width="131" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="dXJ-vF-Ksj">
+                                        <rect key="frame" x="281" y="0.0" width="93" height="36"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UD-Bc-AIN">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
+                                                <color key="backgroundColor" name="spotMeGold"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="36" id="JZ4-Qq-hA8"/>
+                                                    <constraint firstAttribute="height" constant="36" id="fcm-sE-kbh"/>
+                                                </constraints>
+                                                <state key="normal" image="magnifyingglass" catalog="system"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRb-4p-uBY">
+                                                <rect key="frame" x="57" y="0.0" width="36" height="36"/>
+                                                <color key="backgroundColor" name="spotMeGold"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="36" id="CQT-H8-ddR"/>
+                                                    <constraint firstAttribute="height" constant="36" id="PEp-dB-mQC"/>
+                                                </constraints>
+                                                <state key="normal" image="plus.circle.fill" catalog="system"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="6U8-c8-B7I" secondAttribute="bottom" id="3NZ-7f-2Ot"/>
+                            <constraint firstItem="6U8-c8-B7I" firstAttribute="trailing" secondItem="aYM-71-XDl" secondAttribute="trailing" id="5cP-Dk-7KA"/>
+                            <constraint firstItem="aYM-71-XDl" firstAttribute="trailing" secondItem="oPN-28-7uU" secondAttribute="trailing" constant="20" id="6O6-JK-dOL"/>
+                            <constraint firstItem="oPN-28-7uU" firstAttribute="top" secondItem="FMV-hq-Z69" secondAttribute="bottom" constant="40" id="83Y-0F-G7E"/>
+                            <constraint firstItem="6U8-c8-B7I" firstAttribute="top" secondItem="aYM-71-XDl" secondAttribute="top" constant="220" id="FtT-dx-N6p"/>
+                            <constraint firstItem="oPN-28-7uU" firstAttribute="leading" secondItem="aYM-71-XDl" secondAttribute="leading" constant="20" id="JKo-Vb-AeO"/>
+                            <constraint firstItem="FMV-hq-Z69" firstAttribute="leading" secondItem="aYM-71-XDl" secondAttribute="leading" constant="65" id="YjA-46-L5N"/>
+                            <constraint firstItem="aYM-71-XDl" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="FMV-hq-Z69" secondAttribute="trailing" symbolic="YES" id="d5M-3a-SMn"/>
+                            <constraint firstItem="FMV-hq-Z69" firstAttribute="top" secondItem="aYM-71-XDl" secondAttribute="top" constant="80" id="die-6k-uOp"/>
+                            <constraint firstItem="6U8-c8-B7I" firstAttribute="leading" secondItem="aYM-71-XDl" secondAttribute="leading" id="kCE-fF-3Im"/>
+                            <constraint firstItem="6U8-c8-B7I" firstAttribute="top" secondItem="oPN-28-7uU" secondAttribute="bottom" constant="5" id="mL8-VX-pmj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aYM-71-XDl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X6s-t8-8Xf">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="bell" catalog="system" style="plain" id="Je9-TO-160">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="ffN-Bj-ea6" kind="push" id="EoG-xO-qKz"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="person.circle.fill" catalog="system" style="plain" id="sPF-jB-mpD">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="homeTableView" destination="6U8-c8-B7I" id="1I2-ja-h90"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e37-lr-sgc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4810.144927536232" y="89.732142857142847"/>
+        </scene>
+        <!--Notifications View Controller-->
+        <scene sceneID="2rL-6H-lSu">
+            <objects>
+                <viewController id="ffN-Bj-ea6" customClass="NotificationsViewController" customModule="SpotMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XKS-PF-Hbw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Group" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQn-wR-j9H">
+                                <rect key="frame" x="32" y="116" width="48" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Find a lift partner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pv3-YP-rFP">
+                                <rect key="frame" x="32" y="477" width="131" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BC8-4i-3XK">
+                                <rect key="frame" x="0.0" y="159" width="414" height="277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="cqy-nB-K6b"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wTQ-aN-lrs"/>
+                    <connections>
+                        <outlet property="groupTableView" destination="BC8-4i-3XK" id="rxF-vo-86E"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pr7-HS-unD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5657.971014492754" y="-116.51785714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5mu-Dg-61j">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LgS-Ec-o3O" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JET-ZO-Bol">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="EoU-qZ-EN3" kind="relationship" relationship="rootViewController" id="hzV-c4-sOP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KV2-oO-XdQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3900.0000000000005" y="89.732142857142847"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" name="spotMeLightBlue"/>
+    <resources>
+        <image name="bell" catalog="system" width="128" height="124"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="spotMeGold">
+            <color red="0.96899998188018799" green="0.70200002193450928" blue="0.17599999904632568" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="spotMeLightBlue">
+            <color red="0.97254901960784312" green="0.97647058823529409" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

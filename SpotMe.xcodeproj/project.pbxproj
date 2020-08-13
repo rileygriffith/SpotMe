@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		236BCF6624D30D8E004E8AAD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BCF6524D30D8E004E8AAD /* Message.swift */; };
+		236BCF6824D31021004E8AAD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BCF6724D31021004E8AAD /* Constants.swift */; };
+		236BCF7C24D9BBA2004E8AAD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BCF7B24D9BBA2004E8AAD /* HomeViewController.swift */; };
+		236BCF7F24D9BBCD004E8AAD /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BCF7D24D9BBCD004E8AAD /* MessageCell.swift */; };
+		236BCF8024D9BBCD004E8AAD /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 236BCF7E24D9BBCD004E8AAD /* MessageCell.xib */; };
+		236BCF8224E46D6E004E8AAD /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BCF8124E46D6D004E8AAD /* NotificationsViewController.swift */; };
+		236BCF8524E47947004E8AAD /* GroupNotificationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BCF8324E47947004E8AAD /* GroupNotificationsCell.swift */; };
+		236BCF8624E47947004E8AAD /* GroupNotificationsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 236BCF8424E47947004E8AAD /* GroupNotificationsCell.xib */; };
+		236BCF8824E47B32004E8AAD /* GroupNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BCF8724E47B32004E8AAD /* GroupNotifications.swift */; };
 		8ECDBA3224A1C6DC00C46C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECDBA3124A1C6DC00C46C5D /* AppDelegate.swift */; };
 		8ECDBA3424A1C6DC00C46C5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECDBA3324A1C6DC00C46C5D /* SceneDelegate.swift */; };
-		8ECDBA3624A1C6DC00C46C5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECDBA3524A1C6DC00C46C5D /* ViewController.swift */; };
 		8ECDBA3924A1C6DC00C46C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECDBA3724A1C6DC00C46C5D /* Main.storyboard */; };
 		8ECDBA3B24A1C6DE00C46C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECDBA3A24A1C6DE00C46C5D /* Assets.xcassets */; };
 		8ECDBA3E24A1C6DE00C46C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECDBA3C24A1C6DE00C46C5D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		236BCF6524D30D8E004E8AAD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		236BCF6724D31021004E8AAD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		236BCF7B24D9BBA2004E8AAD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		236BCF7D24D9BBCD004E8AAD /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		236BCF7E24D9BBCD004E8AAD /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		236BCF8124E46D6D004E8AAD /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		236BCF8324E47947004E8AAD /* GroupNotificationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupNotificationsCell.swift; sourceTree = "<group>"; };
+		236BCF8424E47947004E8AAD /* GroupNotificationsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupNotificationsCell.xib; sourceTree = "<group>"; };
+		236BCF8724E47B32004E8AAD /* GroupNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupNotifications.swift; sourceTree = "<group>"; };
 		8ECDBA2E24A1C6DC00C46C5D /* SpotMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECDBA3124A1C6DC00C46C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ECDBA3324A1C6DC00C46C5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8ECDBA3524A1C6DC00C46C5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8ECDBA3824A1C6DC00C46C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ECDBA3A24A1C6DE00C46C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ECDBA3D24A1C6DE00C46C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +53,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236BCF6D24D3145B004E8AAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8ECDBA3724A1C6DC00C46C5D /* Main.storyboard */,
+				8ECDBA3C24A1C6DE00C46C5D /* LaunchScreen.storyboard */,
+				236BCF7D24D9BBCD004E8AAD /* MessageCell.swift */,
+				236BCF7E24D9BBCD004E8AAD /* MessageCell.xib */,
+				236BCF8324E47947004E8AAD /* GroupNotificationsCell.swift */,
+				236BCF8424E47947004E8AAD /* GroupNotificationsCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		236BCF6E24D31470004E8AAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				236BCF7B24D9BBA2004E8AAD /* HomeViewController.swift */,
+				236BCF8124E46D6D004E8AAD /* NotificationsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		236BCF7024D3149C004E8AAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				236BCF6524D30D8E004E8AAD /* Message.swift */,
+				236BCF8724E47B32004E8AAD /* GroupNotifications.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8ECDBA2524A1C6DC00C46C5D = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +105,12 @@
 			children = (
 				8ECDBA3124A1C6DC00C46C5D /* AppDelegate.swift */,
 				8ECDBA3324A1C6DC00C46C5D /* SceneDelegate.swift */,
-				8ECDBA3524A1C6DC00C46C5D /* ViewController.swift */,
-				8ECDBA3724A1C6DC00C46C5D /* Main.storyboard */,
+				236BCF6D24D3145B004E8AAD /* Views */,
+				236BCF6E24D31470004E8AAD /* Controllers */,
+				236BCF7024D3149C004E8AAD /* Models */,
 				8ECDBA3A24A1C6DE00C46C5D /* Assets.xcassets */,
-				8ECDBA3C24A1C6DE00C46C5D /* LaunchScreen.storyboard */,
 				8ECDBA3F24A1C6DE00C46C5D /* Info.plist */,
+				236BCF6724D31021004E8AAD /* Constants.swift */,
 			);
 			path = SpotMe;
 			sourceTree = "<group>";
@@ -125,7 +173,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				236BCF8624E47947004E8AAD /* GroupNotificationsCell.xib in Resources */,
 				8ECDBA3E24A1C6DE00C46C5D /* LaunchScreen.storyboard in Resources */,
+				236BCF8024D9BBCD004E8AAD /* MessageCell.xib in Resources */,
 				8ECDBA3B24A1C6DE00C46C5D /* Assets.xcassets in Resources */,
 				8ECDBA3924A1C6DC00C46C5D /* Main.storyboard in Resources */,
 			);
@@ -138,9 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ECDBA3624A1C6DC00C46C5D /* ViewController.swift in Sources */,
+				236BCF7C24D9BBA2004E8AAD /* HomeViewController.swift in Sources */,
+				236BCF8824E47B32004E8AAD /* GroupNotifications.swift in Sources */,
+				236BCF6624D30D8E004E8AAD /* Message.swift in Sources */,
 				8ECDBA3224A1C6DC00C46C5D /* AppDelegate.swift in Sources */,
 				8ECDBA3424A1C6DC00C46C5D /* SceneDelegate.swift in Sources */,
+				236BCF6824D31021004E8AAD /* Constants.swift in Sources */,
+				236BCF8224E46D6E004E8AAD /* NotificationsViewController.swift in Sources */,
+				236BCF8524E47947004E8AAD /* GroupNotificationsCell.swift in Sources */,
+				236BCF7F24D9BBCD004E8AAD /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
